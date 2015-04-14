@@ -17,12 +17,12 @@ var YouTrack = React.createClass({
     var me = this;
     return React.DOM.table({className: 'create-project__table'},[
       React.DOM.tr(null, [
-        React.DOM.td({ className: 'create-project__labels' }, "YouTrack server url: "),
+        React.DOM.td({ className: 'create-project__labels' }, "YouTrack server URL: "),
         React.DOM.td({ className: 'create-project__controls' }, '${servers}'),
         React.DOM.td(null)
       ]),
         React.DOM.tr(null, [
-          React.DOM.td({ className: 'create-project__labels' }, "YouTrack project id: "),
+          React.DOM.td({ className: 'create-project__labels' }, "YouTrack project ID: "),
           React.DOM.td({ className: 'create-project__controls' },
               React.DOM.div({className: 'ring-select-wrapper'},
                 React.DOM.select({
