@@ -14,7 +14,7 @@ var YouTrack = React.createClass({
   },
 
   render: function() {
-    var me = this;
+    var self = this;
     return React.DOM.table({className: 'create-project__table'},[
       React.DOM.tr(null, [
         React.DOM.td({ className: 'create-project__labels' }, "YouTrack project ID: "),
