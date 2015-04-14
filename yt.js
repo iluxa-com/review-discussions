@@ -36,6 +36,9 @@ var YouTrack = React.createClass({
 
   validate: function() {
     return true;
+  },
+
+  afterInitData: function() {
   }
 });
 
